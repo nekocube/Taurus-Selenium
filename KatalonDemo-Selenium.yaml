@@ -46,3 +46,7 @@ scenarios:
       actions:
       - clickByCSS(i.fa.fa-bars)
       - clickByLinkText(Logout)
+      
+execution:
+- module: final-stats
+  dump-xml: stats.xml
